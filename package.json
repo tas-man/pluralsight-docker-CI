@@ -6,8 +6,13 @@
   "main": "app.js",
   "author": "Nigel Poulton <nigelpoulton@hotmail.com>",
   "license": "May contain vulnerabilities!",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
     "express": "^4.17.1",
-    "pug": "2.0.4"
+    "mocha": "^7.1.1",
+    "pug": "2.0.4",
+    "supertest": "^4.0.2"
   }
 }
